@@ -1,2 +1,3 @@
 # FullComp
 ## Word Embedding Approach for Synonym Extraction of Multi-Word Terms.
+### Code and data sets will be soon available...
