@@ -60,9 +60,15 @@ python run_preprocessing.py -c breast_cancer -l fr --lem --postag --default_inou
 ### Build source and target context vectors 
 ```
 	 python run_context_vectors.py -c $corpus -l $source_lang -ct postag -f  $filter -w $w 
-example: python DSA/run_context_vectors.py -c wind -l en -ct postag -f True -w 3
+
+Example using a postagged english wind energy corpus with stopwords filtering
+
+	 python DSA/run_context_vectors.py -c wind -l en -ct postag -f True -w 3
 
 	 python run_context_vectors.py -c $corpus -l $target_lang -ct postag -f  $filter -w $w
+
+Example using a postagged french wind energy corpus with stopwords filtering	 
+	 
 	 python DSA/run_context_vectors.py -c wind -l fr -ct postag -f True -w 3
 ```
 
@@ -71,6 +77,10 @@ example: python DSA/run_context_vectors.py -c wind -l en -ct postag -f True -w 3
 ### Build source and target embedding vectors 
 ```
 	python run_gensim_w2v.py -c $corpus -l $lang -m $model -d $dim -w $w 
+	
+Example using wind energy corpus to build a skipgram model of 100 dimensions based on a window size of 5 
+
+	python Gensim/run_gensim_w2v.py -c wind -l fr -m sg -d 100 -w 5
 	
 ```
 
