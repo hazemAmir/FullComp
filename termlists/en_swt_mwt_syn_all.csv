@@ -1,0 +1,49 @@
+rotor	turbine
+machine	turbine
+generator	turbine
+electricity	power
+energy	power
+drive	power
+speed	power
+shear	gradient
+speed	velocity
+farm	park
+installation	center
+force	pressure
+noise	sound
+device	tank
+windmill	rotor
+model	type
+station	plant
+site	area
+construction	tower
+output	production
+wind shear	wind gradient
+wind speed	wind velocity
+wind machine	wind turbine
+wind generator	wind turbine
+wind farm	wind park
+urban installation	urban center
+upwind force	upwind pressure
+turbine noise	turbine sound
+generator tower	turbine tower
+storage device	storage tank
+savonius windmill	savonius rotor
+savonius model	savonius type
+energy supply	power supply
+electricity plant	power plant
+power station	power plant
+drive train	power train
+nominal speed	nominal power
+marine site	marine area
+lattice construction	lattice tower
+energy output	energy production
+darrieus rotor	vertical axis wind turbine
+wind power station	wind farm
+wind power plant	wind farm
+wind turbine	windmill
+wind turbine generator	aerogenerador
+wind generator	aerogenerator
+pole tower	mast
+reference area	rotor swept area
+savonius rotor	vertical axis wind turbine
