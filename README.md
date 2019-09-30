@@ -28,7 +28,11 @@ When citing **FullComp** in academic papers and theses, please use the following
 - SciPy
 
 ## Usage
-
+The following steps are requiered:
+- preprocess the data sets
+- compute word context vectors using association measures such as mutual information (MI) discounted odds ratio (LO) and Log-likelihood ration (LLR).
+- compute word embedding vectors using gensim 
+- the resulting vectors are used for compositionality.
 ## 0) Pre-processing
 python run_preprocessing.py -c corpus -l lang --lem --postag --default_inout 
 
@@ -55,9 +59,11 @@ python run_preprocessing.py -c breast_cancer -l fr --lem --postag --default_inou
 
 ### Build source and target context vectors 
 ```
-	python run_context_vectors.py -c $corpus -l $source_lang -ct postag -f  $filter -w $w 
+	 python run_context_vectors.py -c $corpus -l $source_lang -ct postag -f  $filter -w $w 
+example: python DSA/run_context_vectors.py -c wind -l en -ct postag -f True -w 3
 
-	python run_context_vectors.py -c $corpus -l $target_lang -ct postag -f  $filter -w $w
+	 python run_context_vectors.py -c $corpus -l $target_lang -ct postag -f  $filter -w $w
+	 python DSA/run_context_vectors.py -c wind -l fr -ct postag -f True -w 3
 ```
 
 ## 2) Embedding vectors
