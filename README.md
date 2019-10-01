@@ -8,7 +8,7 @@ The paper can be found [here](http://www.amirhazem.ovh/publications/year/2018/LR
 When citing **FullComp** in academic papers and theses, please use the following BibTeX entry:
 ```
 @InProceedings{HAZEM18.36,
-  author = {Amir Hazem and BÃ©atrice Daille},
+  author = {Amir Hazem and Béatrice Daille},
   title = "{Word Embedding Approach for Synonym Extraction of Multi-Word Terms}",
   booktitle = {Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)},
   year = {2018},
